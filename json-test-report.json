@@ -1,0 +1,289 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\danie\\source\\repos\\OrangeHrmPlaywrightTypeScript\\playwright.config.ts",
+    "rootDir": "C:/Users/danie/source/repos/OrangeHrmPlaywrightTypeScript",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "json-test-report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/danie/source/repos/OrangeHrmPlaywrightTypeScript/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "Microsoft Edge",
+        "name": "Microsoft Edge",
+        "testDir": "C:/Users/danie/source/repos/OrangeHrmPlaywrightTypeScript",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "3way",
+    "version": "1.50.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\admin\\UserManagment.spec.ts",
+      "file": "tests/admin/UserManagment.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Add New User, delete and assert user is deleted",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 20983,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Add user\n"
+                    },
+                    {
+                      "text": "Search added user\n"
+                    },
+                    {
+                      "text": "Delete user\n"
+                    },
+                    {
+                      "text": "The 'Buggs Bonney' value was successfully deleted from the table\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-09T17:48:18.890Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\danie\\source\\repos\\OrangeHrmPlaywrightTypeScript\\test-results\\tests-admin-UserManagment--86489--and-assert-user-is-deleted-Microsoft-Edge\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4cc44dde8e1bc2df8ed8-c1c5693f02c11e2169c0",
+          "file": "tests/admin/UserManagment.spec.ts",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\job\\JobTitles.spec.ts",
+      "file": "tests/job/JobTitles.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Adding job title and delete job title",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 18144,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Adding Job Title\n"
+                    },
+                    {
+                      "text": "Image Path:  C:\\Users\\danie\\source\\repos\\OrangeHrmPlaywrightTypeScript\\testData\\251411.png\n"
+                    },
+                    {
+                      "text": "Deleting Job Title\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-09T17:48:40.280Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\danie\\source\\repos\\OrangeHrmPlaywrightTypeScript\\test-results\\tests-job-JobTitles-Adding-job-title-and-delete-job-title-Microsoft-Edge\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c73a29810fd2b8be8c98-c1feb949f2bcb07f855a",
+          "file": "tests/job/JobTitles.spec.ts",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\job\\PayGrades.spec.ts",
+      "file": "tests/job/PayGrades.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Add, edit and delete Pay Grades",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 14214,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Add Pay Grades\n"
+                    },
+                    {
+                      "text": "Delete Pay Grades\n"
+                    },
+                    {
+                      "text": "The 'QA Engineer' value was successfully deleted from the table\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-09T17:48:58.441Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\danie\\source\\repos\\OrangeHrmPlaywrightTypeScript\\test-results\\tests-job-PayGrades-Add-edit-and-delete-Pay-Grades-Microsoft-Edge\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0a6ec9c821497995f431-f23415402b8a22ffc6a4",
+          "file": "tests/job/PayGrades.spec.ts",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\Organization\\GeneralInformation.spec.ts",
+      "file": "tests/Organization/GeneralInformation.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Editing General Information",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 9032,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Editing General Information\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-03-09T17:49:12.843Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\danie\\source\\repos\\OrangeHrmPlaywrightTypeScript\\test-results\\tests-Organization-General-b9d83-Editing-General-Information-Microsoft-Edge\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5fbd3b8358363ba64add-6bf42440e2cd2360b877",
+          "file": "tests/Organization/GeneralInformation.spec.ts",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-03-09T17:48:17.464Z",
+    "duration": 64453.348000000005,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
