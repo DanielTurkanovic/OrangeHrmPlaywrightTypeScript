@@ -7,18 +7,18 @@ node_modules/
 # Playwright test results
 /test-results/
 /json-test-report.json
-*.zip           # Trace fajlovi
+*.zip           # Trace files
 /videos/
 /screenshots/
 
 # Logs
 *.log
 
-# OS specifični fajlovi
+# OS specific files
 .DS_Store
 Thumbs.db
 
-# IDE i editor fajlovi
+# IDE and editor files
 .vscode/
 .idea/
 *.suo
