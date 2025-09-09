@@ -16,23 +16,13 @@ test('Add New User, delete and assert user is deleted', async ({ page }) => {
 
     const userSearchButton = page.locator('[type="submit"]');
     userSearchButton.click();
-    await page.waitForTimeout(1000);
 
     const workShifts = await page.locator("//div[@role='table']");
 
     const tableRows = await workShifts.locator("(//div[@role='rowgroup'])[2]").locator("//div[@class='oxd-table-card']").all();
 
-    let BuggsBonney = false;
+    const table = page.locator("//div[@role='table']");
+    await expect(table.locator("text=Buggs Bonney")).toHaveCount(0);
 
-    for (const row of tableRows) {
-        const textContent = await row.textContent();
-        if (textContent?.includes("Buggs Bonney")) {
-            BuggsBonney = true;
-            throw new Error("The value has not been deleted");
-        }
-    }
-
-    if (!BuggsBonney) {
-        console.log("The 'Buggs Bonney' value was successfully deleted from the table");
-    }
+    console.log("The 'Buggs Bonney' value was successfully deleted from the table");
 });

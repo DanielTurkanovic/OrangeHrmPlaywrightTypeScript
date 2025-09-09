@@ -64,7 +64,6 @@ export class JobTitles {
         await highlightClick(this.page, "//button[@type='submit']");
         await this.saveButton.waitFor({ state: 'attached' });
         await this.saveButton.click();
-        await this.page.waitForTimeout(1000);
     }
 
     async deleteJobTitles(): Promise<void> {
@@ -75,7 +74,6 @@ export class JobTitles {
         await highlightClick(this.page, "//button[@class='oxd-button oxd-button--medium oxd-button--label-danger orangehrm-button-margin']");
         await  this.yesDeleteButton.waitFor({ state: 'attached' });
         await this.yesDeleteButton.click();
-        await this.page.waitForTimeout(1000);
     }
 }
 

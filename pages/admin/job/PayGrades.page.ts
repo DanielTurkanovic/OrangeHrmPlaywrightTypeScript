@@ -73,6 +73,5 @@ export class PayGrades {
         await highlightClick(this.page, "//button[@class='oxd-button oxd-button--medium oxd-button--label-danger orangehrm-button-margin']");
         await this.yesDeleteButton.waitFor({ state: 'attached' });
         await this.yesDeleteButton.click();
-        await this.page.waitForTimeout(500);
     }
 }

@@ -28,7 +28,7 @@
     ],
     "reportSlowTests": {
       "max": 5,
-      "threshold": 15000
+      "threshold": 300000
     },
     "quiet": false,
     "projects": [
@@ -36,9 +36,11 @@
         "outputDir": "C:/Users/danie/source/repos/OrangeHrmPlaywrightTypeScript/test-results",
         "repeatEach": 1,
         "retries": 0,
-        "metadata": {},
-        "id": "Microsoft Edge",
-        "name": "Microsoft Edge",
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "Google Chrome",
+        "name": "Google Chrome",
         "testDir": "C:/Users/danie/source/repos/OrangeHrmPlaywrightTypeScript",
         "testIgnore": [],
         "testMatch": [
@@ -50,7 +52,7 @@
     "shard": null,
     "updateSnapshots": "missing",
     "updateSourceMethod": "3way",
-    "version": "1.50.1",
+    "version": "1.51.1",
     "workers": 1,
     "webServer": null
   },
@@ -70,13 +72,14 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Microsoft Edge",
-              "projectName": "Microsoft Edge",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 10,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 20983,
+                  "duration": 14995,
                   "errors": [],
                   "stdout": [
                     {
@@ -94,12 +97,12 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-03-09T17:48:18.890Z",
+                  "startTime": "2025-09-09T13:35:31.854Z",
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\danie\\source\\repos\\OrangeHrmPlaywrightTypeScript\\test-results\\tests-admin-UserManagment--86489--and-assert-user-is-deleted-Microsoft-Edge\\test-finished-1.png"
+                      "path": "C:\\Users\\danie\\source\\repos\\OrangeHrmPlaywrightTypeScript\\test-results\\tests-admin-UserManagment--86489--and-assert-user-is-deleted-Google-Chrome\\test-finished-1.png"
                     }
                   ]
                 }
@@ -107,7 +110,7 @@
               "status": "expected"
             }
           ],
-          "id": "4cc44dde8e1bc2df8ed8-c1c5693f02c11e2169c0",
+          "id": "4cc44dde8e1bc2df8ed8-122350f7206146540222",
           "file": "tests/admin/UserManagment.spec.ts",
           "line": 4,
           "column": 5
@@ -129,13 +132,14 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Microsoft Edge",
-              "projectName": "Microsoft Edge",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 10,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 18144,
+                  "duration": 11868,
                   "errors": [],
                   "stdout": [
                     {
@@ -146,16 +150,19 @@
                     },
                     {
                       "text": "Deleting Job Title\n"
+                    },
+                    {
+                      "text": "The 'Automation test' value was successfully deleted from the table\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-03-09T17:48:40.280Z",
+                  "startTime": "2025-09-09T13:35:47.098Z",
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\danie\\source\\repos\\OrangeHrmPlaywrightTypeScript\\test-results\\tests-job-JobTitles-Adding-job-title-and-delete-job-title-Microsoft-Edge\\test-finished-1.png"
+                      "path": "C:\\Users\\danie\\source\\repos\\OrangeHrmPlaywrightTypeScript\\test-results\\tests-job-JobTitles-Adding-job-title-and-delete-job-title-Google-Chrome\\test-finished-1.png"
                     }
                   ]
                 }
@@ -163,7 +170,7 @@
               "status": "expected"
             }
           ],
-          "id": "c73a29810fd2b8be8c98-c1feb949f2bcb07f855a",
+          "id": "c73a29810fd2b8be8c98-3bcd124faa1891ce583c",
           "file": "tests/job/JobTitles.spec.ts",
           "line": 4,
           "column": 5
@@ -185,13 +192,14 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Microsoft Edge",
-              "projectName": "Microsoft Edge",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 10,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 14214,
+                  "duration": 11619,
                   "errors": [],
                   "stdout": [
                     {
@@ -206,12 +214,12 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-03-09T17:48:58.441Z",
+                  "startTime": "2025-09-09T13:35:58.982Z",
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\danie\\source\\repos\\OrangeHrmPlaywrightTypeScript\\test-results\\tests-job-PayGrades-Add-edit-and-delete-Pay-Grades-Microsoft-Edge\\test-finished-1.png"
+                      "path": "C:\\Users\\danie\\source\\repos\\OrangeHrmPlaywrightTypeScript\\test-results\\tests-job-PayGrades-Add-edit-and-delete-Pay-Grades-Google-Chrome\\test-finished-1.png"
                     }
                   ]
                 }
@@ -219,7 +227,7 @@
               "status": "expected"
             }
           ],
-          "id": "0a6ec9c821497995f431-f23415402b8a22ffc6a4",
+          "id": "0a6ec9c821497995f431-87f8966de656bb5a5efb",
           "file": "tests/job/PayGrades.spec.ts",
           "line": 4,
           "column": 5
@@ -241,13 +249,14 @@
               "timeout": 30000,
               "annotations": [],
               "expectedStatus": "passed",
-              "projectId": "Microsoft Edge",
-              "projectName": "Microsoft Edge",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 10,
+                  "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 9032,
+                  "duration": 11025,
                   "errors": [],
                   "stdout": [
                     {
@@ -256,12 +265,12 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-03-09T17:49:12.843Z",
+                  "startTime": "2025-09-09T13:36:10.785Z",
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\danie\\source\\repos\\OrangeHrmPlaywrightTypeScript\\test-results\\tests-Organization-General-b9d83-Editing-General-Information-Microsoft-Edge\\test-finished-1.png"
+                      "path": "C:\\Users\\danie\\source\\repos\\OrangeHrmPlaywrightTypeScript\\test-results\\tests-Organization-General-b9d83-Editing-General-Information-Google-Chrome\\test-finished-1.png"
                     }
                   ]
                 }
@@ -269,7 +278,7 @@
               "status": "expected"
             }
           ],
-          "id": "5fbd3b8358363ba64add-6bf42440e2cd2360b877",
+          "id": "5fbd3b8358363ba64add-8bca2e3b9b87047feef5",
           "file": "tests/Organization/GeneralInformation.spec.ts",
           "line": 4,
           "column": 5
@@ -279,8 +288,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-03-09T17:48:17.464Z",
-    "duration": 64453.348000000005,
+    "startTime": "2025-09-09T13:35:29.730Z",
+    "duration": 52106.457999999635,
     "expected": 4,
     "skipped": 0,
     "unexpected": 0,

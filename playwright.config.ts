@@ -1,15 +1,15 @@
-import { PlaywrightTestConfig, defineConfig, devices } from '@playwright/test';
+import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
   use: {
     baseURL: 'https://opensource-demo.orangehrmlive.com/',
-    storageState: 'auth.json',
+    /*storageState: 'auth.json',*/
     testIdAttribute: 'data-tab-item',
     video: 'off',
     screenshot: 'on',
     headless: false,
     trace: 'on',
-    actionTimeout: 40000,
+    actionTimeout: 60000,
   },
 
   reporter: [
@@ -18,19 +18,19 @@ export default defineConfig({
   ],
 
   projects: [
-    {
-      name: 'Microsoft Edge',
-      use: {
-        ...devices['Desktop Edge'],
-        channel: 'msedge',
-      },
-    },
     // {
-    //   name: 'Google Chrome',
+    //   name: 'Microsoft Edge',
     //   use: {
-    //     ...devices['Desktop Chrome'],
-    //     channel: 'chrome',
+    //     ...devices['Desktop Edge'],
+    //     channel: 'msedge',
     //   },
     // },
+    {
+      name: 'Google Chrome',
+      use: {
+        ...devices['Desktop Chrome'],
+        channel: 'chrome',
+      },
+    },
   ],
 });
