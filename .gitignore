@@ -1,2 +1,28 @@
+# Node modules
+node_modules/
+
+# Environment variables
 .env
-node_modules
+
+# Playwright test results
+/test-results/
+/json-test-report.json
+*.zip           # Trace fajlovi
+/videos/
+/screenshots/
+
+# Logs
+*.log
+
+# OS specifični fajlovi
+.DS_Store
+Thumbs.db
+
+# IDE i editor fajlovi
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
