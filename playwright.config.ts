@@ -2,7 +2,7 @@ import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
   use: {
-    baseURL: 'https://opensource-demo.orangehrmlive.com/',
+    baseURL: 'https://opensource-demo.orangehrmlive.com/?lang=en_US',
     /*storageState: 'auth.json',*/
     testIdAttribute: 'data-tab-item',
     video: 'off',
